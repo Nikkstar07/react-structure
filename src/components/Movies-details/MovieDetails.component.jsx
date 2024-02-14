@@ -31,7 +31,7 @@ const MovieDetails = ({ setIsMovieDetails }) => {
   return (
     <>
       {" "}
-      {!loading ? (
+      {loading ? (
         <div className="h-full flex items-center justify-center"><img src={loader} alt="" srcset="" className="w-[30%]"/></div>
       ) : (
         <div>
